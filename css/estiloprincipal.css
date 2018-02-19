@@ -1,0 +1,585 @@
+		#contenedor {
+			width: 928px;
+			margin: 0 auto;
+		}
+
+		a:link {
+			color: #000000;
+			 text-decoration: none;
+		}
+
+		/* visited link */
+		a:visited {
+			color: #000000;
+			 text-decoration: none;
+		}
+
+		/* mouse over link */
+		a:hover {
+			color: #999999;
+		}
+
+		/* selected link */
+		a:active {
+			color: #000000;
+			text-decoration: none;
+		}
+
+
+      textarea {
+         resize: none;
+      }
+
+      .btn-style{
+        width: 70px; height: 25px;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-top: 2px; 
+        margin-bottom: 2px; 
+        font-weight:bold;        
+        border : solid 0px #ffffff;
+        
+        font-size : 12px;
+        color : #ffffff;
+        background-color : #BE0000;
+        padding:    0px 20px 
+      }
+
+        #div_registros{ 
+          margin:0 auto 0 auto; 
+          width:800px; 
+          height: 150px;
+          overflow-y: auto;
+          overflow-x: hidden;
+          
+        }      
+
+        #divcabecera{ 
+          margin:0 auto 0 auto; 
+          width:800px; 
+        }
+
+        #div_carga_cumplimiento{ 
+          margin:0 auto 0 auto; 
+          width:800px; 
+        }
+
+        #div_ingresador{ 
+          margin:0 auto 0 auto; 
+          
+        }
+
+      /* ESTILO TABLA DIV CARGA CUMPLIMIENTO*/
+      .tg  {
+        border-collapse:collapse;border-spacing:0;
+        
+      }
+      .tg td{font-family:times;font-size:12px;border-style:solid;border-color: #cccccc;border-width:1px;overflow:hidden;word-break:normal;}
+      .tg th{font-family:times;font-size:12px;font-weight:normal;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+      .tg .tg-titulo{font-weight:bold;background-color:#FE0000;color:#ffffff}
+      .tg .tg-concepto{font-weight:bold;background-color:#DFDFDF;color:#000000;border-style:solid;border-color: #ffffff;padding:0}
+      .tg .tg-concepto2{font-weight:bold;text-align: left;background-color:#DFDFDF;color:#000000;width: 400px;border-style:solid;border-color: #ffffff}
+    
+      .tg .tg-otros{font-weight:bold;background-color:#DFDFDF;color:#000000;width: 150px;border-style:solid;border-color: #ffffff}
+      .tg .tg-otros2{background-color:#EFEFEF;color:#000000;width:100px;height:10px;border-style:solid;border-color: #ffffff}
+      .tg .tg-campos{background-color:#ffffff;color:#000000;width: 100px;height:10px;border-style:solid;border-color: #ffffff}
+      .tg .tg-campos2{background-color:#ffffff;color:#000000;width: 110px;height:10px;border-bottom: 1px;border-color: #ffffff}
+     
+      .tg .tg-tituloregistros{font-weight:bold;text-align: center;background-color:#FE0000;height: 15px;color:#ffffff}
+     
+      .tg .tg-registros{background-color:#ffffff;font-size: 10px;color:#000000;height:10px;border-style: none ;border-color: #ffffff}
+       
+      
+
+          
+
+          .form-signin {
+            max-width: 300px;
+            padding: 0px 0px 0px;
+            margin: 2 auto 2;
+            margin-left: 4;
+            margin-top: 0;
+
+            background-color: #ffffff;
+         
+            border-radius:5px;
+            /*box-shadow: 7px 7px 10px 5px;    */
+          }
+          .form-signin .form-signin-heading,
+          .form-signin .checkbox {
+            margin-bottom: 10px;
+          }
+          .form-signin input[type="text"],
+          .form-signin input[type="password"] {
+            font-size: 12px;
+            width: 230px;
+            height: 20px;
+            margin-bottom: 5px;
+            padding: 0px 0px;
+          }
+
+
+        table.tablaestructura
+          {
+            border-top: 1px hidden;
+            border-bottom: 1px;
+
+            color:#FFFFFF; 
+            background: #006699; 
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size:12px;
+            /*max-width:300px;*/
+            text-align: center;
+            border-spacing: 4px;
+
+            /*vertical-align: bottom;*/
+            
+
+            /*border:1px;
+            border-color: #CCCCCC;*/
+          }
+
+          table.tablaestructura tr
+          {
+            border-left: 1px hidden;
+            border-right: 1px hidden;
+
+            vertical-align: bottom;
+
+          }
+
+          table.tablaestructura td
+          {
+            border: 1px solid #dddddd;
+            /* width: 100px;*/
+
+          }
+
+          
+        
+
+
+          #divadminestructuras{
+            width: 500px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+
+            
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+
+           #divtopestructuras{
+            width: 500px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 0px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+
+          #divlineafisica{
+            width: 950px;
+            border: 1px solid #d0d0d0;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 2px;
+            margin-top: 5px;
+            
+            /*line-height:5px;*/
+
+            
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+
+           #divlineainfo{
+            width: 950px;
+            border: 1px solid #d0d0d0;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 2px;
+            /*line-height:5px;*/
+
+            
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+
+          #divcambiarpasswd{
+            width: 250px;
+            border: 1px solid #d0d0d0;
+            padding-left: 10px;
+            padding-top: 10px;
+            margin-left: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+          .inputsocultos{
+            /*visibility: hidden;*/
+            display : none;
+          }
+
+          #divadminusuario{
+            width: 500px;
+            border: 1px solid #d0d0d0;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+
+           #divtopdescargas{
+            width: 410px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+
+          #divtoplineas{
+            width: 970px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+          #divtopinspeccion{
+            width: 440px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+           #divtopinspeccioneditar{
+            width: 520px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+          #divinspeccioninfo{
+            width: 420px;
+            border: 1px solid #d0d0d0;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 2px;
+          }
+
+
+          
+
+            #divinspeccioneditar{
+            width: 500px;
+            border: 1px solid #d0d0d0;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 2px;
+          }
+
+          .divbloqueado{
+            width: 970px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            pointer-events: none;
+            
+            
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+            .divdesbloqueado{
+            width: 970px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            
+            
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+            #divadmindescargas{
+            width: 410px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+
+            
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+
+           #divadminlineas{
+            width: 970px;
+            border: 2px solid #d0d0d0;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+
+            
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+           #sectionabajo{
+            /*width: 700px;
+            border: 1px solid #d0d0d0;*/
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            //
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+            #diveditarusuario{
+            width: 350px;
+            border: 1px solid #d0d0d0;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+            /*visibility: hidden;*/
+            /*         display : none; */
+          }
+
+          .fondoinicio{
+            color:#FFFFFF; 
+            background: #FE0002; 
+
+          }       
+  
+
+
+          .tabla{
+            color:#FFFFFF; 
+            background: #006699; 
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size:12px;
+            /*max-width:100px;*/
+          }
+
+           table.tablalinea2
+          {
+            border-top: 1px hidden;
+            border-bottom: 1px hidden;
+
+            color:#FFFFFF; 
+            background: #006699; 
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size:9px;
+
+            padding-left: 5px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+
+
+            /*max-width:300px;*/
+            /*text-align: center;
+            border-spacing: 1px;
+
+            /*vertical-align: bottom;*/
+            
+
+            /*border:1px;
+            border-color: #CCCCCC;*/
+          }
+
+          table.tablalinea2 tr
+          {
+            border-left: 1px hidden;
+            border-right: 1px hidden;
+
+            vertical-align: bottom;
+
+
+          }
+
+          table.tablalinea2 td
+          {
+            border: 1px solid #dddddd;
+            border-bottom: 1px hidden;
+             width: 300px;
+
+          }
+
+
+          table.tablalinea
+          {
+            border-top: 1px hidden;
+            border-bottom: 1px;
+
+            color:#FFFFFF; 
+            background: #006699; 
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size:12px;
+            /*max-width:300px;*/
+            text-align: center;
+            border-spacing: 4px;
+
+            /*vertical-align: bottom;*/
+            
+
+            /*border:1px;
+            border-color: #CCCCCC;*/
+          }
+
+          table.tablalinea tr
+          {
+            border-left: 1px hidden;
+            border-right: 1px hidden;
+
+            vertical-align: bottom;
+
+          }
+
+          table.tablalinea td
+          {
+            border: 1px solid #dddddd;
+            /* width: 100px;*/
+
+          }
+
+/*
+        .tablalinea{
+            color:#FFFFFF; 
+            background: #006699; 
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size:12px;
+            max-width:200px;
+            text-align: center;
+            border:1px;
+            border-color: #CCCCCC;
+          }
+
+*/
+          .texto{
+            color:#000000;  
+            font-family:Verdana;
+            font-size:9px;
+          }
+
+          .texto2{
+            color:#ffffff;  
+            /*font-family:Verdana;*/
+            font-size:11px;
+            font-weight:bold;
+          }
+
+          .texto3{
+            color:#000000;  
+            /*font-family:Verdana;*/
+            font-size:10px;
+            /*font-weight:bold;*/
+          }
+
+          .textorojo{
+            color:#FF0000;  
+            font-family:Verdana;
+            font-size:9px;
+          }
+
+          .inputslectura{
+             background-color: #eeeeee;
+          }
+
+           .cboboxlectura{
+             background-color: #eeeeee;
+          }
+
+          .solonumeros{
+            /*width:10px;*/
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-align: right;
+            font-size:10px;          
+          }
+
+          
+
+          .btn-largeres {
+            padding: 2px 7px;
+            font-size: 12px;
+            line-height: normal;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+          }
+          .entrada{
+		    color:#000099;
+			font-family:Geneva, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			/*font-stretch:expanded;*/
+			margin:auto;
+			text-align: left;
+					
+			
+		  }
+		  footer#page_footer
+		{
+           clear: both;
+           width: 100%;
+           display: block;
+           text-align: center;
+		}

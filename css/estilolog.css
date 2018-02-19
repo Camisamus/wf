@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*background-color:#069;*/
+	/*background-color:#1A9D5B;*/
+	background-color:#1d4771;
+	border-bottom-width:thick;
+	border-bottom-color:#FF0000
+}
+#frm_ingreso{
+	width:450px;
+	height:300px;
+	margin-top:70px;
+	margin-left:420px;
+	background-color:#ffffff;
+	border-radius:15px;
+	box-shadow: 7px 7px 10px 5px;
+	}
+.btningreso{
+	margin-left:15px;
+	color:#CCC;
+	border-color:#069;
+	border-bottom-style:solid;
+	background-color:#069;
+	width:130px;
+	height:30px;
+}
+#acceso{
+	/*color:#069;*/
+	color: #555550;
+	height:15px;
+	
+}
+
+#campostexto{
+	/*color:#069;*/
+	color: #555550;
+	height:10px;
+	
+	font-weight: bold;
+	
+}
